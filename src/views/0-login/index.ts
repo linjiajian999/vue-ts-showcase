@@ -1,8 +1,6 @@
 // import Vue, { VueConstructor } from  'vue'
 import { RouteConfig } from 'vue-router'
-const login = () => ({
-  component: import(/* webpackChunkName: "0-login" */ './login.vue')
-})
+const login = () =>  import(/* webpackChunkName: "0-login" */ './login.vue')
 export const routes: RouteConfig[] = [
   {
     path: '/',
