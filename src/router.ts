@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import About from './views/About.vue'
 
-// import { routes as loginRoutes } from './views/0-login'
+import { routes as loginRoutes } from './views/0-login'
 
 Vue.use(Router)
 
@@ -19,6 +19,6 @@ export default new Router({
       name: 'about',
       component: About
     },
-    // ...loginRoutes,
+    ...loginRoutes,
   ]
 })

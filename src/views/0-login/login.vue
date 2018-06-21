@@ -1,5 +1,5 @@
 <template>
-  <div @click="click">logiin</div>
+  <div @click="click">login</div>
 </template>
 
 <script>
