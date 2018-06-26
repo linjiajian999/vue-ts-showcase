@@ -1,6 +1,6 @@
 {
-  "name": "ts-tem",
-  "short_name": "ts-tem",
+  "name": "showcase",
+  "short_name": "showcase",
   "icons": [
     {
       "src": "/img/icons/android-chrome-192x192.png",
