@@ -2,10 +2,10 @@
   <div @click="click">login</div>
 </template>
 
-<script>
+<script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
-  nmae: 'login',
+  name: 'login',
   data() {
     return {
       name: 'login',

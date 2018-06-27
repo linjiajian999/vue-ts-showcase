@@ -4,7 +4,6 @@ module.exports = {
     ? ''
     : '',
   outputDir: 'dist',
-  assetsDir: './static/',
 
   pages: {
     index: {
@@ -15,7 +14,8 @@ module.exports = {
        // output as dist/index.html
        filename: 'index.html'
     },
-    login: 'src/pages/login/index.ts'
+    login: 'src/pages/login/index.ts',
+    test: 'src/pages/test/index.ts'
   },
 
   runtimeCompiler: false,
@@ -26,7 +26,7 @@ module.exports = {
   },
 
   devServer: {
-    port: '8080',
+    port: '7000',
     proxy: {
       '/api': {
         target: 'https://api.xxx.com/',
