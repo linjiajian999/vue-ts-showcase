@@ -1,5 +1,5 @@
 <template>
-  <div @click="click">login</div>
+  <div @click="click">login - view</div>
 </template>
 
 <script lang="ts">
