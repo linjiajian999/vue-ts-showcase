@@ -53,7 +53,7 @@ export default Vue.extend({
     document.querySelectorAll('.mdc-button').forEach(ele => MDCRipple.attachTo(ele))
 
     const radio = new MDCRadio(document.querySelector('.mdc-radio')!)
-    const formField = new MDCFormField(document.querySelector('.mdc-form-field')!);
+    const formField = new MDCFormField(document.querySelector('.mdc-form-field')!)
     formField.input = radio
   }
 })
