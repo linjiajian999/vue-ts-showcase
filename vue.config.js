@@ -23,7 +23,12 @@ module.exports = {
   productionSourceMap: false,
 
   css: {
-    sourceMap: true
+    sourceMap: true,
+    loaderOptions: {
+      sass: {
+        includePaths: ['./node_modules']
+      }
+    }
   },
 
   devServer: {

@@ -24,17 +24,24 @@ module.exports = {
       'error',
       'always'
     ],
+    'no-multiple-empty-lines': ['error', { 'max': 1 }],
+    'no-new-object': "error",
+    'no-new-wrappers': 'error',
+    'no-plusplus': ['error', { 'allowForLoopAfterthoughts': true }],
+    'no-script-url': 'error',
     'no-trailing-spaces': [
       'error',
       {
         ignoreComments: true
       }
     ],
+    'no-undefined': 'error',
+    'no-undef-init': 'error',
+    'no-var': 'error',
     'no-whitespace-before-property': 'error',
+    'prefer-rest-params': 'error',
     'semi-spacing': 'error',
     'space-infix-ops': 'error',
-    'no-var': 'error',
-    'prefer-rest-params': 'error',
     semi: [
       'error',
       'never'
@@ -54,9 +61,6 @@ module.exports = {
       'error',
       'never'
     ],
-    'no-undefined': 'error',
-    'no-undef-init': 'error',
-    'no-script-url': 'error',
     'vue/attribute-hyphenation': [
       'error',
       'always'

@@ -78,6 +78,77 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
+"@material/animation@^0.34.0":
+  version "0.34.0"
+  resolved "https://registry.yarnpkg.com/@material/animation/-/animation-0.34.0.tgz#a99cc9dabf7d0179b4da9a0aaa1575c4d1513823"
+
+"@material/base@^0.35.0":
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/@material/base/-/base-0.35.0.tgz#8640c2da385e8cc393ff56153c5a319f5a7704cb"
+
+"@material/button@^0.36.1":
+  version "0.36.1"
+  resolved "https://registry.yarnpkg.com/@material/button/-/button-0.36.1.tgz#751d0925689a84ce23c20825b273a58ab77dc2d4"
+  dependencies:
+    "@material/elevation" "^0.36.1"
+    "@material/ripple" "^0.36.0"
+    "@material/rtl" "^0.36.0"
+    "@material/theme" "^0.35.0"
+    "@material/typography" "^0.35.0"
+
+"@material/elevation@^0.36.1":
+  version "0.36.1"
+  resolved "https://registry.yarnpkg.com/@material/elevation/-/elevation-0.36.1.tgz#663a527ad2a0b2bcf0cd67835ec6fe8e8f6609da"
+  dependencies:
+    "@material/animation" "^0.34.0"
+    "@material/theme" "^0.35.0"
+
+"@material/form-field@^0.36.0":
+  version "0.36.0"
+  resolved "https://registry.yarnpkg.com/@material/form-field/-/form-field-0.36.0.tgz#08260b3c62ce9a4c6fcf2ca6f06d048816b415f8"
+  dependencies:
+    "@material/base" "^0.35.0"
+    "@material/rtl" "^0.36.0"
+    "@material/selection-control" "^0.36.0"
+    "@material/theme" "^0.35.0"
+    "@material/typography" "^0.35.0"
+
+"@material/radio@^0.36.0":
+  version "0.36.0"
+  resolved "https://registry.yarnpkg.com/@material/radio/-/radio-0.36.0.tgz#7d2582aad635b8cd74674fe1a58381d8a1ceba6f"
+  dependencies:
+    "@material/animation" "^0.34.0"
+    "@material/base" "^0.35.0"
+    "@material/ripple" "^0.36.0"
+    "@material/selection-control" "^0.36.0"
+    "@material/theme" "^0.35.0"
+
+"@material/ripple@^0.36.0":
+  version "0.36.0"
+  resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-0.36.0.tgz#262491c37643c3aabad93cd033698622c70beb13"
+  dependencies:
+    "@material/animation" "^0.34.0"
+    "@material/base" "^0.35.0"
+    "@material/theme" "^0.35.0"
+
+"@material/rtl@^0.36.0":
+  version "0.36.0"
+  resolved "https://registry.yarnpkg.com/@material/rtl/-/rtl-0.36.0.tgz#a81b587981dc6e09f51e26da8a7447f89358ccd5"
+
+"@material/selection-control@^0.36.0":
+  version "0.36.0"
+  resolved "https://registry.yarnpkg.com/@material/selection-control/-/selection-control-0.36.0.tgz#db2203fb82c0b8e49718c0c21fa23a9a2b101f79"
+  dependencies:
+    "@material/ripple" "^0.36.0"
+
+"@material/theme@^0.35.0":
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/@material/theme/-/theme-0.35.0.tgz#a2c76f60b82a53d399b769ef91ec52e83ad3c3bd"
+
+"@material/typography@^0.35.0":
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/@material/typography/-/typography-0.35.0.tgz#23ad7eb7c9789e69c7c3fa54df8fc311cd7fc4b1"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -88,6 +159,37 @@
 "@nodelib/fs.stat@^1.0.1":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.0.tgz#50c1e2260ac0ed9439a181de3725a0168d59c48a"
+
+"@types/material__base@*":
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/@types/material__base/-/material__base-0.35.0.tgz#ad7ee346c50dce541b4d5acc209a4313399f6880"
+
+"@types/material__form-field@^0.35.0":
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/@types/material__form-field/-/material__form-field-0.35.0.tgz#d013b88f8c4795c6606a8ee825d0924e1bde71d5"
+  dependencies:
+    "@types/material__base" "*"
+    "@types/material__selection-control" "*"
+
+"@types/material__radio@^0.35.0":
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/@types/material__radio/-/material__radio-0.35.0.tgz#754fba1117f162f389190e9512a5296fa37cc1e5"
+  dependencies:
+    "@types/material__base" "*"
+    "@types/material__ripple" "*"
+    "@types/material__selection-control" "*"
+
+"@types/material__ripple@*", "@types/material__ripple@^0.35.0":
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/@types/material__ripple/-/material__ripple-0.35.0.tgz#be62a3f5e0c5790a482658999b25712bb9ea1a83"
+  dependencies:
+    "@types/material__base" "*"
+
+"@types/material__selection-control@*":
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/@types/material__selection-control/-/material__selection-control-0.35.0.tgz#3db6f601e33a5e4dd96b38ad4cdc78993c45274f"
+  dependencies:
+    "@types/material__ripple" "*"
 
 "@types/node@*":
   version "10.3.4"
@@ -3794,6 +3896,10 @@ map-visit@^1.0.0:
   resolved "https://registry.yarnpkg.com/map-visit/-/map-visit-1.0.0.tgz#ecdca8f13144e660f1b5bd41f12f3479d98dfb8f"
   dependencies:
     object-visit "^1.0.0"
+
+material-design-icons@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/material-design-icons/-/material-design-icons-3.0.1.tgz#9a71c48747218ebca51e51a66da682038cdcb7bf"
 
 math-expression-evaluator@^1.2.14:
   version "1.2.17"

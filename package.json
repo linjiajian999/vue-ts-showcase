@@ -8,6 +8,13 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@material/button": "^0.36.1",
+    "@material/form-field": "^0.36.0",
+    "@material/radio": "^0.36.0",
+    "@types/material__form-field": "^0.35.0",
+    "@types/material__radio": "^0.35.0",
+    "@types/material__ripple": "^0.35.0",
+    "material-design-icons": "^3.0.1",
     "normalize.css": "^8.0.0",
     "register-service-worker": "^1.0.0",
     "vue": "^2.5.16",
