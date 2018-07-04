@@ -1,6 +1,6 @@
 import { RouteConfig } from 'vue-router'
 
-const login = () =>  import(/* webpackChunkName: "0-login" */ './Login.vue')
+const login = () =>  import(/* webpackChunkName: "0-login" */ './login.vue')
 
 export const routes: RouteConfig[] = [
   {

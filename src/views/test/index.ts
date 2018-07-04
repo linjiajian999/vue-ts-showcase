@@ -1,8 +1,8 @@
 import { RouteConfig } from 'vue-router'
 
-const test0 = () =>  import(/* webpackChunkName: "0-login" */ './Test-0.vue')
-const test1 = () =>  import(/* webpackChunkName: "0-login" */ './Test-1.vue')
- const test2 = () =>  import(/* webpackChunkName: "0-login" */ './Test-2.vue')
+const test0 = () =>  import(/* webpackChunkName: "0-login" */ './test-0.vue')
+const test1 = () =>  import(/* webpackChunkName: "0-login" */ './test-1.vue')
+ const test2 = () =>  import(/* webpackChunkName: "0-login" */ './test-2.vue')
 
 export const routes: RouteConfig[] = [
   {

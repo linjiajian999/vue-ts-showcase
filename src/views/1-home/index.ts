@@ -1,7 +1,7 @@
 import { RouteConfig } from 'vue-router'
 
-const home = () =>  import(/* webpackChunkName: "1-home" */ './Home.vue')
-const about = () => import(/* webpackChunkName: "1-home" */ './About.vue')
+const home = () =>  import(/* webpackChunkName: "1-home" */ './home.vue')
+const about = () => import(/* webpackChunkName: "1-home" */ './about.vue')
 
 export const routes: RouteConfig[] = [
   {
