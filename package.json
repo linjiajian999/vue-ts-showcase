@@ -9,8 +9,11 @@
   },
   "dependencies": {
     "@material/button": "^0.36.1",
+    "@material/checkbox": "^0.37.0",
     "@material/form-field": "^0.36.0",
     "@material/radio": "^0.36.0",
+    "@material/typography": "^0.35.0",
+    "@types/material__checkbox": "^0.35.0",
     "@types/material__form-field": "^0.35.0",
     "@types/material__radio": "^0.35.0",
     "@types/material__ripple": "^0.35.0",

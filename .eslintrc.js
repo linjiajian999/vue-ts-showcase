@@ -77,6 +77,6 @@ module.exports = {
       'error',
       'double'
     ],
-    'vue/order-in-components': 'error'
+    // 'vue/order-in-components': 'error'
   }
 }
