@@ -145,7 +145,6 @@ export default Vue.extend({
     this.radioFormField = new MDCFormField(document.querySelector('.mdc-form-field')!)
     this.radioFormField.input = this.radio
     // console.log(this.radio)
-
     this.checkbox = new MDCCheckbox(document.querySelector('.mdc-checkbox')!)
   }
 })
